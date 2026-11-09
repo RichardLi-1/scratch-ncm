@@ -1,0 +1,15 @@
+{
+  "name": "scratch-ncm-runner",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Headless sb3 runner (scratch-vm and TurboWarp VM)",
+  "main": "harness.js",
+  "bin": {
+    "sb3run": "run.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "scratch-vm": "5.0.300",
+    "tw-vm": "github:TurboWarp/scratch-vm#0cb82afe62506f3d9f2ff849c95593f0473b5d2c"
+  }
+}
