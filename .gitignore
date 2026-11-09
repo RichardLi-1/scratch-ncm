@@ -1,0 +1,7 @@
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+# large/reproducible generated artifacts (regenerate with the scripts)
+phase0/out/
